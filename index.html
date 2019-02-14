@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Clearance Workload Parser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Clearance Workload Parser</h1>
+    <div id="instructions">
+      <h2>Instructions</h2>
+      <ul>
+        <li>Log in at greenfield.target.com</li>
+        <li>Click on Dashboards in the menu</li>
+        <li>Search for Price Change Forecast in the search bar</li>
+        <li>In the Filter By menu, check the store number and the week you want to parse, then click Apply</li>
+        <li>Click on the Price Change Forecast Card itself</li>
+        <li>Export the card to CSV, if given an option Download the file - do not open it in Excel</li>
+        <li>Click the Choose File button below, then find the downloaded file.</li>
+        <li>Click the Submit button below</li>
+
+      </ul>
+    </div>
+    <input type="file" accept=".csv" id="file-input">
+    <button id="btn">Submit</button>
+    <div id="table-data">
+      <!-- Dynamic table created with JavaScript is inserted here -->
+    </div>
+  </main>
+  
+  <script src="test.js"></script>
+</body>
+</html>

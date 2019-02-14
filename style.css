@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+#table-header, #total-row {
+  font-weight: bold;
+  background: red;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+#table-header {
+  font-size: 18px;
+}
+
+#instructions {
+  border: 1px solid black;
+  padding: 0 30px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  border-radius: 6px;
+}
+
+input {
+  margin: 15px;
+}
+
+button {
+  margin: 15px;
+}
+
+td, th {
+  padding: 5px 15px;
+  border: 1px solid black;
+}
